@@ -1,5 +1,5 @@
 # Online Casino Product Analytics
-![Online Casino](/images/online-casino.jpeg)
+![Online Casino](/images/online_casino.jpeg)
 ## Project Description
 The primary objective of this project is to provide product analytics for an online casino. 
 It comprises three main components:
