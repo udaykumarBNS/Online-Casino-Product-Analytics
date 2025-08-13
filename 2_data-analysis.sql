@@ -4,7 +4,7 @@
 #1: Unique Users and Gadgets from July 2023 to December 2023
 SELECT 
     EXTRACT(YEAR FROM event_timestamp) AS year,
-    EXTRACT(YEAR FROM event_timestamp) AS month,
+    EXTRACT(MONTH FROM event_timestamp) AS month,
     COUNT(DISTINCT player_id) AS unique_players,
     COUNT(DISTINCT gadget_id) AS unique_gadgets
 FROM
